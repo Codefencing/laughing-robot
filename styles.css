@@ -1,27 +1,18 @@
 @media only screen and (orientation: landscape) {
 	body {
-		background-color: midnightblue;
-	}
-	.entrybutton {
-		width: 15%;
-		padding-top: 15%;
-		padding-bottom: 15%;
-		display:inline-block;
-		background-color:dimgray;
-		border: solid;
-		border-radius: 1em;
-		border-color: red;
-		border-width: 0.5em;
-		margin: 1%;
-		text-align: center;
-	}
-	
-	.buttonholder {
-		text-align: center;
-	}
-	
-	.titletext	{
 		color: white;
+		background-color: midnightblue;
+		text-align: center;
+		
+	}
+	span {
+		width: 12%;
+		padding: 15% 0%;
+		display:inline-block;
+		background-color: dimgray;
+		border: solid red 1em;
+		border-radius: 2em;
+		margin: 2% 1%;
 		text-align: center;
 	}
 }
