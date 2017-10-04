@@ -1,26 +1,27 @@
-* {
-  color: rgb(22, 77, 100);
-  border-style: solid;
-  border-color: rgb(22, 77, 100);
-  border-width: 4px 4px 4px 4px;
-  border-radius: 15px;
-  padding: 2px;
-  margin: 30px;
-  display: inline-block;
-}
-
-.blerg {
-  background-color: #466995;
-  border-bottom: 1px solid #466995;
-  overflow-y: auto;
-  width: 100%;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  z-index: 1000;
-}
-
-/*Don't forget to remove the head after posting. */
-head {
-	display: none;
+@media only screen and (orientation: landscape) {
+	body {
+		background-color: midnightblue;
+	}
+	.entrybutton {
+		width: 15%;
+		padding-top: 15%;
+		padding-bottom: 15%;
+		display:inline-block;
+		background-color:dimgray;
+		border: solid;
+		border-radius: 1em;
+		border-color: red;
+		border-width: 0.5em;
+		margin: 1%;
+		text-align: center;
+	}
+	
+	.buttonholder {
+		text-align: center;
+	}
+	
+	.titletext	{
+		color: white;
+		text-align: center;
+	}
 }
