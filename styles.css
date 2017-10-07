@@ -1,18 +1,20 @@
 @media only screen and (orientation: landscape) {
 	body {
 		color: white;
-		background-color: midnightblue;
+		/*background: linear-gradient(to right, snow,aquamarine);*/
+		background-color: black;
 		text-align: center;
-		
 	}
+	
 	span {
 		width: 12%;
 		padding: 15% 0%;
 		display:inline-block;
-		background-color: dimgray;
-		border: solid red 1em;
+		border: solid hotpink 1em;
 		border-radius: 2em;
 		margin: 2% 1%;
 		text-align: center;
+		box-shadow: 0px 0px 15px 5px #888888;
+		background-color: rgba(32, 32, 32, 0.10);
 	}
 }
