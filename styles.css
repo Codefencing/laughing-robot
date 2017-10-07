@@ -5,7 +5,7 @@ body {
 	text-align: center;
 }
 
-span {
+.button {
 		display:inline-block;
 		border: solid hotpink 1em;
 		border-radius: 2em;
@@ -15,21 +15,25 @@ span {
 	}
 
 @media only screen and (orientation: landscape) {	
-	span {
+	.button {
 		width: 12%;
 		padding: 15% 0%;
 	}
 }
 
 @media only screen and (orientation: portrait) {
-	span {
+	.button {
 		width: 25%;
 		padding: 6% 0%;
 	}
 	.odd {
-		text-align: left;
+		float: left;
 	}
 	.even {
-		text-align: right;
+		float: right;
+	}
+	.vrow {
+		display: inline-block;
+		border: none;
 	}
 }
