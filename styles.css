@@ -24,7 +24,7 @@ body {
 @media only screen and (orientation: portrait) {
 	.button {
 		width: 25%;
-		padding: 6% 0%;
+		padding: 6% 10%;
 	}
 	.odd {
 		float: left;
