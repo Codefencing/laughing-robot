@@ -4,7 +4,6 @@ body {
 	background-color: black;
 	text-align: center;
 }
-
 .button {
 		display:inline-block;
 		border: solid hotpink 1em;
@@ -13,27 +12,29 @@ body {
 		box-shadow: 0px 0px 15px 5px #888888;
 		background-color: rgba(32, 32, 32, 0.10);
 	}
-
 @media only screen and (orientation: landscape) {	
 	.button {
 		width: 12%;
 		padding: 12% 0%;
 	}
+	.vrow {
+		display: inline;
+	}
 }
-
 @media only screen and (orientation: portrait) {
 	.button {
-		width: 25%;
-		padding: 6% 10%;
+		width: 35%;
+		padding: 10% 0%;
+		margin: 0%;
 	}
 	.odd {
-		float: left;
+		margin: 0% 5% 0% 0%;
 	}
 	.even {
-		float: right;
+		margin: 0% 0% 0% 5%;
 	}
 	.vrow {
-		display: inline-block;
+		display: block;
 		border: none;
 	}
 }
